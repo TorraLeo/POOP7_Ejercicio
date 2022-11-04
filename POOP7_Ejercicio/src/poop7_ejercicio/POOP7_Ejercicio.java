@@ -14,15 +14,7 @@ public class POOP7_Ejercicio {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //Perro
-        System.out.println("Perro-----------------------------------------------------------");
-        Perro cino = new Perro("Cino", "Mexico", "Gris", 4, "Azul");
-        cino.setSonido("Wauf");
-        System.out.println(cino);
-        System.out.println(cino.getSonido());
-        cino.comer();
-        cino.correr();
-        cino.hacerTruco();
+        
     }
     
 }
