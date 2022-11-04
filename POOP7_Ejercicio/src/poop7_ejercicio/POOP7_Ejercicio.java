@@ -23,6 +23,19 @@ public class POOP7_Ejercicio {
         cino.comer();
         cino.correr();
         cino.hacerTruco();
+
+        // Ballena
+        System.out.println("Ballena---------------------------------------------------------");
+        Ballena bal = new Ballena();
+        bal.setNombre("Luisa");
+        bal.setLargo(132);
+        bal.setLugarOrigen("Mexico");
+        bal.setSonido("aaaaaaaaaaaaaaa");
+        bal.setNumeroAletas(4);
+        System.out.println(bal.getSonido());
+        System.out.println(bal);
+        bal.comer();
+        bal.pelearConPinocho();
     }
     
 }
