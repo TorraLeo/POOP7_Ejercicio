@@ -36,6 +36,15 @@ public class POOP7_Ejercicio {
         System.out.println(bal);
         bal.comer();
         bal.pelearConPinocho();
+
+        //Pajaro
+        System.out.println("Pajaro------------------------------------------------------------");
+        Pajaro peti= new Pajaro("Petirrojo", "Alaska", "Rojo", 2, "fino");
+        System.out.println(peti);
+        peti.setSonido("aaaaaas");
+        System.out.println(peti.getSonido());
+        peti.volar();
+        peti.recolectarRamas();
     }
     
 }
